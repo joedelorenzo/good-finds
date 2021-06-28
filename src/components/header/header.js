@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon from '../icon';
-import menu from '../../icons/menu.svg';
+import menu from '../../assets/icons/menu.svg';
 
 const Header = () => {
   return (

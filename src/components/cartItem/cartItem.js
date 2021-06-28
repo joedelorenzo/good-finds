@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Icon from '../icon';
-import close from '../../icons/close.svg'
+import close from '../../assets/icons/close.svg'
 
 const CartItem = ({ name, price, size, onClick, image,bestSeller }) => (
   <div className="gf-cart-item">

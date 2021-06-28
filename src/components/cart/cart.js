@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import PropTypes from 'prop-types';
 import CartItem from '../cartItem/cartItem';
 import Icon from '../icon/icon';
-import close from '../../icons/close.svg'
+import close from '../../assets/icons/close.svg'
 
 const Cart = ({ items, total, removeFromCart }) => {
   const node = useRef();
