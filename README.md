@@ -17,6 +17,8 @@ Start local dev server
 npm start
 ```
 
+Open [http://localhost:3000/](http://localhost:3000/) to view it in the browser.
+
 ## Details
 - Built with [React](https://reactjs.org/)
 - This app is using [Redux](https://redux.js.org/introduction/getting-started) for state management.
