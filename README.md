@@ -30,14 +30,13 @@ Open [http://localhost:3000/](http://localhost:3000/) to view in the browser.
     - Styles folder is where we house all of our scss variable and mixins, along with other global styling
         - I am using [node-sass](https://www.npmjs.com/package/node-sass) for compliling .scss files into css
         - For the animations througout the app I mostly used css, but I used the [gsap](https://greensock.com/) animation library for fading the products in after loading
-- I am using [Pa11y](https://www.npmjs.com/package/pa11y) for automated accessibility testing. By default, Pa11y is running WCAG AA accessibility standards.
+- I am using [Pa11y](https://www.npmjs.com/package/pa11y) for automated accessibility testing. By default, Pa11y is running WCAG AA accessibility standards
 
 ## Running pa11y
 
 Ensure you have your local dev server is running in one terminal window/tab.
 
-Open another terminal window/tab and run pa11y:
-
+While your dev server is running, open another terminal window/tab and run pa11y:
 ```sh
 npm run pa11y
 ```
