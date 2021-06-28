@@ -43,8 +43,8 @@ npm run pa11y
 ```
 
 # Design
-I wanted to keep this site rather simple and wanted to do something along the lines of this "Brutalist" style, which is minimal and alomst anti-design. You can see some inspiration [here](https://brutalistwebsites.com/). I wanted to focus on grid and typography while keeping the products in the forefront.
+I wanted to keep this site rather simple and wanted to do something along the lines of "Brutalist" style, which is minimal and alomst anti-design. You can view some examples [here](https://brutalistwebsites.com/). I focused on grid and typography to keep the products in the forefront and center of the users focus.
 
 Adding motion is always something I enjoy, so I wanted to showcase some tasteful, light animation where I felt fit.
 
-
+Going off of a "mobile first" approach, I added the 600px breakpoint, and took some liberties to add the Medium and Large breakpoints just for grid changes.
