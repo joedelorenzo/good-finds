@@ -18,7 +18,7 @@ npm start
 ```
 
 ## Details
-- Built with [React](https://github.com/facebookincubator/create-react-app)
+- Built with [React](https://reactjs.org/)
 - This app is using [Redux](https://redux.js.org/introduction/getting-started) for state management.
 - Anticipating our application will grow in scale, I seperated the Actions, Reducers, Selectors, Components, and Styles out into their own repective folders to help the app be more maintainable.
     - Actions have two simple functions, add and remove from cart with their respective Action type in the actionTypes folder
