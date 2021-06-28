@@ -47,4 +47,4 @@ I wanted to keep this site rather simple and wanted to do something along the li
 
 Adding motion is always something I enjoy, so I wanted to showcase some tasteful, light animation where I felt fit.
 
-Going off of a "mobile first" approach, I added the 600px breakpoint, and took some liberties to add the Medium and Large breakpoints just for grid changes.
+Going off of a "mobile first" approach, I added the 600px breakpoint, and took some liberties to add the Medium and Large breakpoints as well.
