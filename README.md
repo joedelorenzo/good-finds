@@ -42,6 +42,8 @@ Open another terminal window/tab and run pa11y:
 npm run pa11y
 ```
 
+Running this will run our application against WCAG AA accessibility standards.
+
 # Design
 I wanted to keep this site rather simple and wanted to do something along the lines of "Brutalist" style, which is minimal and alomst anti-design. You can view some examples [here](https://brutalistwebsites.com/). I focused on grid and typography to keep the products in the forefront and center of the users focus.
 
