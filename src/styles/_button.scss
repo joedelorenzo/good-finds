@@ -1,0 +1,15 @@
+.gf-button {
+  @include button-reset;
+
+  font-size: (16px);
+  color: $black;
+  background: $white;
+  text-transform: uppercase;
+  transition: color 300ms $easeOutExpo, background 300ms $easeOutExpo;
+
+  &:hover,
+  &:focus {
+    color: $white;
+    background: $black;
+  }
+}

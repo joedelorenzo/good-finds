@@ -1,0 +1,35 @@
+.gf-select-component {
+  display: flex;
+  flex-direction: column;
+}
+
+.gf-select-label {
+  margin-left: 3px;
+}
+
+.gf-select-element {
+  font-family: $primary-font;
+  letter-spacing: -1px;
+  border: 0;
+  padding: 8px 0;
+  font-size: rem(20px);
+}
+
+@media #{$small} {
+  .gf-select-element {
+    font-size: rem(24px);
+    padding: 8px 8px 8px 0;
+  }
+}
+
+@media #{$medium} {
+  .gf-select-label {
+    margin-right: 8px;
+    font-size: rem(24px);
+  }
+
+  .gf-select-component {
+    flex-direction: row;
+    align-items: center;
+  }
+}

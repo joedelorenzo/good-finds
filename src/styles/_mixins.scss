@@ -1,0 +1,18 @@
+@mixin button-reset {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+@mixin list-reset {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+@function rem($size) {
+  $remSize: $size / $base-font-size;
+
+  @return #{$remSize}rem;
+}

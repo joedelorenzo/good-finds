@@ -1,0 +1,129 @@
+.gf-cart-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: $header-height-sm;
+  width: $header-height-sm;
+  font-size: rem(12px);
+  border-bottom: $border;
+  border-left: $border;
+  font-weight: $weight-bold;
+  z-index: 4;
+}
+
+.gf-cart-panel {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  height: 100%;
+  width: 90%;
+  background-color: $white;
+  border-left: $border;
+  z-index: 999;
+  visibility: hidden;
+  box-shadow: -5px 0px 10px 0px rgba($black, 0.4);
+  transition: right 300ms $easeOutExpo, visibility 300ms $easeOutExpo;
+
+  &.gf-is-open {
+    right: 0;
+    visibility: visible;
+  }
+}
+
+.gf-cart-header {
+  height: $header-height-sm;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: $rhythm * 2;
+  border-bottom: $border;
+}
+
+.gf-cart-panel-close-svg {
+  height: 32px;
+  width: 32px;
+  margin: 0 auto;
+}
+
+.gf-cart-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.gf-cart-content {
+  height: 100vh;
+  padding-bottom: 244px;
+  overflow-y: scroll;
+}
+
+.gf-cart-total {
+  display: flex;
+  justify-content: flex-end;
+  background: $white;
+  border-top: $border;
+  border-bottom: $border;
+  padding: $rhythm * 2 $rhythm;
+  margin-top: -247px;
+  z-index: 1;
+}
+
+.gf-cart-checkout-button-container {
+  display: flex;
+  background-color: $white;
+  z-index: 1;
+}
+
+.gf-cart-checkout-button {
+  width: calc(100% - 24px);
+  margin: $rhythm * 3 auto $rhythm * 5;
+  font-weight: $weight-bold;
+  font-size: rem(18px);
+  padding: $rhythm * 2;
+  border: $border;
+}
+
+.gf-cart-empty-text {
+  display: block;
+  margin-top: $rhythm * 4;
+  text-align: center;
+}
+
+.gf-cart-panel-close-button {
+  height: 100%;
+  width: $header-height-sm;
+  border-left: $border;
+}
+
+@media #{$small} { 
+  .gf-cart-header {
+    height: $header-height-lg;
+  }
+
+  .gf-cart-panel-close-button {
+    width: $header-height-lg;
+  }
+
+  .gf-cart-panel-close-svg {
+    height: 56px;
+    width: 56px;
+  }
+
+  .gf-cart-button {
+    font-size: rem(16px);
+    height: $header-height-lg;
+    width: $header-height-lg;
+  }
+
+  .gf-cart-panel {
+    right: -500px;
+    width: 500px;
+  }
+
+  .gf-cart-content {
+    padding-bottom: 284px;
+  }
+
+  .gf-cart-total {
+    margin-top: -287px;
+  }
+}
