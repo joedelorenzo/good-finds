@@ -41,3 +41,10 @@ Open another terminal window/tab and run pa11y:
 ```sh
 npm run pa11y
 ```
+
+# Design
+I wanted to keep this site rather simple and wanted to do something along the lines of this "Brutalist" style, which is minimal and alomst anti-design. You can see some inspiration [here](https://brutalistwebsites.com/). I wanted to focus on grid and typography while keeping the products in the forefront.
+
+Adding motion is always something I enjoy, so I wanted to showcase some tasteful, light animation where I felt fit.
+
+
