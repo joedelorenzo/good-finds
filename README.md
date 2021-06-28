@@ -1,6 +1,7 @@
 # Good finds
 
-Welcome to Good Finds! Home to all of your 80s and 90s vintage threads. This is an example of a simple shopping cart implemented in react and redux.
+Welcome to Good Finds! Home to all of your 80s and 90s vintage threads. 
+This is an example of a simple shopping cart implemented in react and redux.
 
 ## Getting started
 
