@@ -4,6 +4,8 @@ Welcome to Good finds - home to all of your 80s and 90s vintage threads!
 
 This is an example of a simple shopping cart app implemented in react and redux.
 
+<img width="1680" alt="Screen Shot 2021-07-19 at 4 02 55 PM" src="https://user-images.githubusercontent.com/6710298/126220094-efb82e34-572f-49ee-b655-dddbd0bb21c7.png">
+
 ## Getting started
 
 Install dependencies
