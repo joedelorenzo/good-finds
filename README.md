@@ -19,4 +19,4 @@ Start local dev server
 npm start
 ```
 
-Open [http://localhost:3000/](http://localhost:3000/) to view in the browser.
+Open [http://localhost:3000/](http://localhost:3000/) to view the app.
